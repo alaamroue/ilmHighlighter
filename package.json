@@ -1,7 +1,13 @@
 {
-  "name": "ilm",
-  "displayName": "ilm",
-  "description": "ProMaIDes model settings",
+  "name": "ilmHighlighter",
+  "displayName": "ilm Highlighter for ProMaIDes",
+  "description": "Syntax Highlighter for the .ilm ProMaIDes model file",
+  "icon": "images/logo.png",
+  "publisher": "AlaaMroue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alaamroue/ilmHighlighter"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"
