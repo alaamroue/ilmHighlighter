@@ -1,0 +1,25 @@
+{
+  "name": "ilm",
+  "displayName": "ilm",
+  "description": "ProMaIDes model settings",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ilm",
+      "aliases": ["ilm", "ilm"],
+      "extensions": [".ilm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ilm",
+      "scopeName": "source.ilm",
+      "path": "./syntaxes/ilm.tmLanguage.json"
+    }]
+  }
+}
